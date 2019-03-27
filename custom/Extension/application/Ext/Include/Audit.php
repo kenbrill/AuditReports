@@ -49,27 +49,6 @@ $modules_exempt_from_availability_check['Audit_Opportunities'] = 'Audit_Opportun
 $report_include_modules['Audit_Opportunities'] = 'Audit_Opportunities';
 $modInvisList[] = 'Audit_Opportunities';
 
-$beanList['Audit_IN_Customers'] = 'Audit_IN_Customers';
-$beanFiles['Audit_IN_Customers'] = 'modules/Audit_IN_Customers/Audit_IN_Customers.php';
-$moduleList[] = 'Audit_IN_Customers';
-$modules_exempt_from_availability_check['Audit_IN_Customers'] = 'Audit_IN_Customers';
-$report_include_modules['Audit_IN_Customers'] = 'Audit_IN_Customers';
-$modInvisList[] = 'Audit_IN_Customers';
-
-$beanList['Audit_IN_Customer_Contacts'] = 'Audit_IN_Customer_Contacts';
-$beanFiles['Audit_IN_Customer_Contacts'] = 'modules/Audit_IN_Customer_Contacts/Audit_IN_Customer_Contacts.php';
-$moduleList[] = 'Audit_IN_Customer_Contacts';
-$modules_exempt_from_availability_check['Audit_IN_Customer_Contacts'] = 'Audit_IN_Customer_Contacts';
-$report_include_modules['Audit_IN_Customer_Contacts'] = 'Audit_IN_Customer_Contacts';
-$modInvisList[] = 'Audit_IN_Customer_Contacts';
-
-$beanList['Audit_IN_Orders'] = 'Audit_IN_Orders';
-$beanFiles['Audit_IN_Orders'] = 'modules/Audit_IN_Orders/Audit_IN_Orders.php';
-$moduleList[] = 'Audit_IN_Orders';
-$modules_exempt_from_availability_check['Audit_IN_Orders'] = 'Audit_IN_Orders';
-$report_include_modules['Audit_IN_Orders'] = 'Audit_IN_Orders';
-$modInvisList[] = 'Audit_IN_Orders';
-
 $beanList['Audit_Events'] = 'Audit_Events';
 $beanFiles['Audit_Events'] = 'modules/Audit_Events/Audit_Events.php';
 $moduleList[] = 'Audit_Events';
