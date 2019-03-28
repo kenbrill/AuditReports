@@ -8,8 +8,7 @@ array_push($job_strings, 'auditReports');
 function auditReports()
 {
 	//Just add all the modules you have added to this list by PARENT MODULE
-	$auditedModules = array('Accounts', 'Bugs', 'Cases', 'Contacts', 'IN_Customer_Contacts', 'IN_Customers',
-							'IN_Orders', 'Opportunities', 'Quotes', 'Tasks');
+	$auditedModules = array('Accounts', 'Bugs', 'Cases', 'Contacts', 'Opportunities', 'Quotes', 'Tasks');
 	$GLOBALS['log']->fatal('----->Scheduler fired job of type auditReports()');
 	foreach ($auditedModules as $auditedModule) {
 		$ar = new auditReports($auditedModule);
