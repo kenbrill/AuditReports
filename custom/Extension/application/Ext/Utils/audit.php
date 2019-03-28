@@ -116,7 +116,9 @@ class auditReports
 				$this->updateAuditTable($dataType, $table, $avs, $fieldName, $id, 'after');
 			}
 		}
-		$GLOBALS['log']->fatal("Audit: Audit Rebuild for the {$table}_audit is complete.");
+		if($numOfRows==0) {
+			$GLOBALS['log']->fatal("Audit: Audit Rebuild for the {$table}_audit is complete.");
+		}
 	}
 
 	/**
